@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 10px 50px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navBarItems li{
+    display: inline;
+    margin-left: 50px;    
+    color: var(--text-grey-color);
+}
+
+.navBarItems li:hover {
+    color: var(--text-green-color);
+}
+
+.navBarItems span {
+    color: var(--text-green-color);
+}
+
+
+
+.resumeBtn {
+    margin-left: 50px;
+    font-size: 15px;
+}
