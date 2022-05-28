@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Ubuntu:wght@300;400;700&display=swap');
+
 /* Create color variables */
 :root {
   --main-bg-color: #0a192f;
   --text-green-color: #64ffda;
   --text-grey-color: #8892af;
-  --tinted-green-color: #16463b;
+  --tinted-green-color: #192c27;
   --grey-color-1: #ccd6f6;
   --grey-color-2: #8892b0;
+  --gentle-blue: #b0cdf1;
+  --main-font: 'Ubuntu';
 }
 
 * {
   padding: 0;
   margin: 0;
+  color: var(--text-grey-color);
+  font-family: var(--main-font);
 }
 
 .app {
@@ -21,14 +27,34 @@
   color: var(--text-green-color);
 }
 
+.linkText:hover {
+  text-decoration: underline;
+}
+
 .outlinedBtn {
   background-color: transparent;
   border: 1px solid var(--text-green-color);
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 8px 30px;
   color: var(--text-green-color);
 }
 
 .outlinedBtn:hover {
   background-color: var(--tinted-green-color);
+}
+
+.sectionTitle {
+  color: var(--gentle-blue);
+  margin-bottom: 50px;
+}
+.horizontalLine {
+  width: 70%;
+  height: 1px;
+  background-color: var(--gentle-blue);
+  margin-top: 15px;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
 }

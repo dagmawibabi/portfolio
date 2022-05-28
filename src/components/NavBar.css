@@ -1,7 +1,12 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 120px 10px 50px;
+    padding: 20px 60px 10px 50px;
+    position: sticky;
+    top: 0px;
+    background-color: var(--main-bg-color);
+    z-index: 9999;
+    opacity: 0.95;
 }
 
 .logo {
@@ -9,8 +14,9 @@
 }
 
 .navBarItems li{
+    font-size: 15px;
     display: inline;
-    margin-left: 50px;    
+    margin-left: 30px;    
     color: var(--text-grey-color);
 }
 

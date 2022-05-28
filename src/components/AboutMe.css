@@ -1,0 +1,70 @@
+.aboutMe {
+    height: 120vh;
+    width: 60%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMeContent {
+    width: 54%;
+}
+
+.aboutMeContent p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.list {
+    margin-top: 2px;
+    line-height: 25px;
+}
+
+.list ul {
+    list-style: none; 
+  }
+  
+.list ul li::before {
+    content: "\25B9";  
+    color: var(--text-green-color); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+  }
+
+.myPhotoReveal {
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 350px;
+    height: 350px;
+}
+
+.myPhotoReveal:hover .highlightBorder{
+    margin-left: -10px;
+    margin-bottom: 10px;
+    background-color: var(--tinted-green-color);
+}
+.myPhotoReveal:hover .myPhoto {
+    filter: grayscale(0%);
+}
+
+.myPhoto {
+    width: 320px;
+    z-index: 2;
+    position: relative;
+    right: 20px;
+    bottom: 345px;
+    border-radius: 5px;
+    filter: grayscale(100%);
+}
+
+.highlightBorder {
+    z-index: 1;
+    width: 320px;
+    height: 320px;
+    border: 2px solid var(--text-green-color);
+    border-radius: 5px;
+}
