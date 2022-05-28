@@ -11,8 +11,8 @@
   --grey-color-3: #a1b5cd;
   --gentle-blue: #b0cdf1;
   --main-font: 'Ubuntu';
-  --dim-blue: #142647;
-  
+  --dim-blue: #12213e;
+  --lighter-blue: #162b52;  
 }
 
 * {
@@ -62,6 +62,7 @@
   height: 1px;
   background-color: var(--gentle-blue);
   margin-top: 15px;
+  opacity: 0.2;
 }
 
 .flexSpaceBetween {

@@ -1,3 +1,14 @@
 .projectContainer {
-    height: 300vh;
+    height: 400vh;
+}
+
+.folderProjects {
+    text-align: center;
+}
+.folderProjectsGrid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 6vw);
+    grid-column-gap: 270px;
+    grid-row-gap: 30px;
 }

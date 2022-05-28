@@ -1,0 +1,39 @@
+.folderProjectContainer {
+    height: fit-content;
+    width: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: var(--dim-blue);
+    text-align: left;
+}
+.folderProjectContainer:hover {
+    margin-top: -10px;
+    background-color: var(--lighter-blue);
+}
+.folderProjectContainer:hover .projectTitle{
+    margin-top: -10px;
+    color: var(--text-green-color);
+}
+
+.folderIcon {
+    font-size: 40px;
+    color: var(--text-green-color);
+    margin-bottom: 25px;
+}
+
+.projectTitle {
+    color: var(--gentle-blue);
+    margin-bottom: 15px;
+}
+
+.folderProjectDescription {
+    line-height: 22px;
+}
+
+.fpts {
+    margin-top: 30px;
+}
+.fpts li{
+    color: var(--grey-color-1s);
+    opacity: 0.5;
+}
