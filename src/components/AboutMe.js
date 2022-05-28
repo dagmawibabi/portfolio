@@ -1,7 +1,7 @@
 import './AboutMe.css'
 export const AboutMe = () => {
     return (
-        <div className="aboutMe">
+        <div className="sectionContainer aboutMeContainer">
             <div className='aboutMeContent'>
                 <div className='flexSpaceBetween'>
                     <h2 className='sectionTitle'> <span className='linkText'> 01. </span> About Me </h2>

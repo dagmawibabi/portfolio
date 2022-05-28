@@ -8,8 +8,11 @@
   --tinted-green-color: #192c27;
   --grey-color-1: #ccd6f6;
   --grey-color-2: #8892b0;
+  --grey-color-3: #a1b5cd;
   --gentle-blue: #b0cdf1;
   --main-font: 'Ubuntu';
+  --dim-blue: #142647;
+  
 }
 
 * {
@@ -43,10 +46,17 @@
   background-color: var(--tinted-green-color);
 }
 
+.sectionContainer {
+  height: 100vh;
+  width: 60%;
+  margin: auto auto;
+}
+
 .sectionTitle {
   color: var(--gentle-blue);
   margin-bottom: 50px;
 }
+
 .horizontalLine {
   width: 70%;
   height: 1px;

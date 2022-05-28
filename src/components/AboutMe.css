@@ -1,11 +1,7 @@
-.aboutMe {
-    height: 120vh;
-    width: 60%;
-    margin: auto auto;
+.aboutMeContainer {
     display: flex;
-    justify-content: space-around;
+    justify-self: space-around;  
 }
-
 .aboutMeContent {
     width: 54%;
 }
@@ -35,9 +31,9 @@
   }
 
 .myPhotoReveal {
-    margin-top: 8%;
+    margin-top: 9%;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
     width: 350px;
     height: 350px;
 }

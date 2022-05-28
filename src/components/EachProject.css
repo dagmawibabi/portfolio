@@ -1,0 +1,90 @@
+.eachProject {
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--grey-color-3);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.projectDetail {
+    margin: auto auto;
+    z-index: 9999;
+}
+
+.projectImage {
+    width: 580px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: grayscale(100%);
+}
+
+.projectImage:hover {
+    filter: grayscale(0%);
+}
+
+.projectTitle { 
+    margin-top: 5px;
+}
+
+.projectDescription {
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--dim-blue);
+    line-height: 25px;
+    box-shadow: 2px 2px 1px 1px var(--dim-blue);
+}
+
+.projectDescription:hover {
+    box-shadow: 2px 2px 1px 1px var(--text-green-color);
+}
+
+/* .eachProject:hover {
+    box-shadow: 2px 2px 1px 1px var(--text-green-color);
+
+} */
+
+.eachProject:hover .projectImage{
+    filter: grayscale(0%);
+}
+
+.projectDescription p, h1, li{
+    color: var(--grey-color-3);
+}
+
+.projectTechStack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.projectTechStack li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.imageOverlap {
+    position: relative;
+    left: -100px;
+}
+
+.projectLink {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.projectLink:hover {
+    color: var(--text-green-color)
+}
