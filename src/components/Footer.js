@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div className='verticalLine'></div>
             </div>
             <div className='footerRemark'>
-                <p> Designed by <span className='linkText'> Brittany Chiang </span> and Built by <span className='linkText'> Dagmawi Babi </span> </p>
+                <p> {/* Designed by <span className='linkText'> Brittany Chiang </span> and */ } Built by <span className='linkText'> Dagmawi Babi </span> </p> 
                 <p> May, 2022 </p>
             </div>                    
             <div className='email'>
