@@ -1,6 +1,6 @@
 import './FolderProject.css';
 
-export const FolderProject = () => {
+export const FolderProject = (props) => {
     return (
         <div>
             <div className='sectionContainer folderProjectContainer'>
@@ -12,8 +12,8 @@ export const FolderProject = () => {
                     </div>
                 </div>
                 <div>
-                    <h2 className='projectTitle'> Project One</h2>
-                    <p className='folderProjectDescription'> Building a custom multisite compatible WordPress plugin to build global search with Algolia </p>
+                    <h2 className='projectTitle'> {props.projectTitle} </h2>
+                    <p className='folderProjectDescription'> {props.projectDescription} </p>
                     <ul className='projectTechStack fpts'>
                         <li> Tech 1 </li>
                         <li> Tech 2 </li>

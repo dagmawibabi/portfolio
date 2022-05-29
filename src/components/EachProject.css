@@ -23,7 +23,17 @@
 }
 
 .projectImage:hover {
-    filter: grayscale(0%);
+    animation-name: removeGreyScale;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes removeGreyScale {
+    to {
+        filter: grayscale(0%);
+    }
 }
 
 .projectTitle { 
@@ -40,16 +50,30 @@
 }
 
 .projectDescription:hover {
-    box-shadow: 2px 2px 1px 1px var(--text-green-color);
+    animation-name: boxShadow;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
-/* .eachProject:hover {
-    box-shadow: 2px 2px 1px 1px var(--text-green-color);
+@keyframes boxShadow {
+    to {
+        box-shadow: 2px 2px 1px 1px var(--text-green-color);
+    }
+}
 
-} */
 
 .eachProject:hover .projectImage{
-    filter: grayscale(0%);
+    animation-name: removeGreyScale;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes removeGreyScale {
+    to {
+        filter: grayscale(0%);
+    }
 }
 
 .projectDescription p, h1, li{

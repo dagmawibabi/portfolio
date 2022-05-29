@@ -39,12 +39,32 @@
 }
 
 .myPhotoReveal:hover .highlightBorder{
-    margin-left: -10px;
-    margin-bottom: 10px;
-    background-color: var(--tinted-green-color);
+    animation-name: boxShadow;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    margin-left: -12px;
+    margin-bottom: 12px;
 }
 .myPhotoReveal:hover .myPhoto {
-    filter: grayscale(0%);
+    animation-name: removeGreyScale;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes removeGreyScale {
+    to {
+        filter: grayscale(0%);
+    }
+}
+
+@keyframes boxShadow {
+    to {
+        background-color: red;
+        box-shadow: 4px 4px 2px 2px var(--text-green-color);
+    }
 }
 
 .myPhoto {

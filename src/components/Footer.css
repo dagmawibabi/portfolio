@@ -1,0 +1,76 @@
+.footerContainer {
+    font-size: 14px;
+    padding: 20px 0px;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 50px; */
+}
+
+.footerContainer p {
+    margin-bottom: 10px;
+}
+
+.stickToSide {
+    float: left;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    left: 50px;
+}
+.contactList i {
+    margin-bottom: 20px;
+}
+.contactList i:hover {
+    animation-name: socialHover;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.verticalLine {
+    height: 200px;
+    width: 0px;
+    border: 1px solid var(--grey-color-3);
+    margin-left: 10px;
+}
+
+.email {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email p{
+    position: fixed;
+    bottom: 300px;
+    right: -20px;
+    transform: rotate(90deg);
+    letter-spacing: 2px;
+}
+
+.email p:hover {
+    color: var(--text-green-color);
+}
+
+.moveRight {
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    padding-right: -150px;
+}
+
+@keyframes socialHover {
+    to {
+        transform: scale(1.2);
+        color: var(--text-green-color)
+    }
+    
+}

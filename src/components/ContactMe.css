@@ -1,0 +1,26 @@
+.contactMeContainer {
+    height: 50vh;
+
+}
+.salute {
+    text-align: center;
+    width: 600px;
+    margin: 15% auto;
+}
+
+.salute h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: var(--grey-color-1);
+}
+
+.salute p {
+    margin-bottom: 70px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.salute button {
+    font-size: 20px;
+}

@@ -5,7 +5,7 @@
   --main-bg-color: #0a192f;
   --text-green-color: #64ffda;
   --text-grey-color: #8892af;
-  --tinted-green-color: #192c27;
+  --tinted-green-color: rgba(100,255,218,0.1);
   --grey-color-1: #ccd6f6;
   --grey-color-2: #8892b0;
   --grey-color-3: #a1b5cd;
@@ -13,6 +13,9 @@
   --main-font: 'Ubuntu';
   --dim-blue: #12213e;
   --lighter-blue: #162b52;  
+}
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -50,6 +53,8 @@
   height: 100vh;
   width: 60%;
   margin: auto auto;
+  padding-top: 6%;
+  z-index: 9999;
 }
 
 .sectionTitle {

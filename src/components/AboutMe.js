@@ -1,10 +1,10 @@
 import './AboutMe.css'
 export const AboutMe = () => {
     return (
-        <div className="sectionContainer aboutMeContainer">
+        <div id='aboutMe' className="sectionContainer aboutMeContainer">
             <div className='aboutMeContent'>
                 <div className='flexSpaceBetween'>
-                    <h2 className='sectionTitle'> <span className='linkText'> 01. </span> About Me </h2>
+                    <h2 id='aboutMe'  className='sectionTitle'> <span className='linkText'> 01. </span> About Me </h2>
                     <div className='horizontalLine'></div>
                 </div>
                 <p>

@@ -2,7 +2,7 @@ import './LandingPage.css';
 
 export const LandingPage = () => {
     return(
-        <div className='banner'>
+        <div id='home' className='banner'>
             <div className='bannerElementContainer'>
                 <span className='linkText greeting'> Hi, my name is </span>
                 <h1 className='name'> Dagmawi Babi. </h1>

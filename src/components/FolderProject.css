@@ -7,17 +7,72 @@
     text-align: left;
 }
 .folderProjectContainer:hover {
-    margin-top: -10px;
-    background-color: var(--lighter-blue);
+    animation-name: folderHover;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes folderHover {
+    0% {
+        margin-top: 0px;
+        background-color: var(--dim-blue);
+    }
+    100% {
+        margin-top: -10px;
+        /* background-color: var(--tinted-green-color); */
+        box-shadow: 3px 3px 2px 2px var(--text-green-color);
+    }    
+}
+
+@keyframes hoverChangeColor {
+    to {
+        margin-top: -5px;
+        color: var(--text-green-color);
+    }
+}
+
+.folderProjectContainer:hover .folderIcon{
+    animation-name: hoverChangeColor;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 .folderProjectContainer:hover .projectTitle{
-    margin-top: -10px;
-    color: var(--text-green-color);
+    animation-name: hoverChangeColor;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.folderProjectContainer:hover .folderProjectDescription{
+    animation-name: hoverChangeColorGrey1;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.folderProjectContainer:hover .fpts li{
+    animation-name: hoverChangeColorGrey3;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverChangeColorGrey1 {
+    to {
+        color: var(--grey-color-1);
+    }
+}
+
+@keyframes hoverChangeColorGrey3 {
+    to {
+        opacity: 1;
+        color: var(--grey-color-3);
+    }
 }
 
 .folderIcon {
     font-size: 40px;
-    color: var(--text-green-color);
     margin-bottom: 25px;
 }
 
@@ -35,5 +90,5 @@
 }
 .fpts li{
     color: var(--grey-color-1s);
-    opacity: 0.5;
+    opacity: 0.7;
 }
