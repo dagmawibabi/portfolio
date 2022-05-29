@@ -1,4 +1,5 @@
 import './NavBar.css';
+import resume from '../assets/resume/DagmawiEsayas.pdf';
 
 export const NavBar = () => {
     return (
@@ -9,8 +10,8 @@ export const NavBar = () => {
                 </a>
             </div>
             <div className='navBarItems'>
-                <ol>
-                    <a href='#aboutMe'>
+                <ol>                    
+                    <a href='#aboutMe' rel='noreferrer'>
                         <li> <span> 01. </span> About </li>
                     </a>
                     <a href='#aboutMe'>
@@ -22,7 +23,9 @@ export const NavBar = () => {
                     <a href='#contactMe'>
                         <li> <span> 04. </span> Contact </li>
                     </a>
-                    <button className='outlinedBtn resumeBtn'>  Resume </button>
+                    <a href={resume} target='_blank' rel='noopener noreferrer'>
+                        <button className='outlinedBtn resumeBtn'>  Resume </button>
+                    </a>
                 </ol>
             </div>
         </div>

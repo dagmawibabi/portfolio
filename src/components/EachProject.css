@@ -15,8 +15,8 @@
 }
 
 .projectImage {
-    width: 580px;
-    height: 380px;
+    width: 600px;
+    height: 400px;
     object-fit: cover;
     border-radius: 5px;
     filter: grayscale(100%);
@@ -49,19 +49,20 @@
     box-shadow: 2px 2px 1px 1px var(--dim-blue);
 }
 
-.projectDescription:hover {
-    animation-name: boxShadow;
+.eachProject:hover .projectTechStack{
+    animation-name: changeBGTS;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
 
-@keyframes boxShadow {
+@keyframes changeBGTS {
     to {
-        box-shadow: 2px 2px 1px 1px var(--text-green-color);
-    }
+        border-radius: 10px;
+        padding: 10px 20px 16px;
+        background-color: var(--dim-main-bg-color);
+    }    
 }
-
 
 .eachProject:hover .projectImage{
     animation-name: removeGreyScale;
@@ -72,12 +73,64 @@
 
 @keyframes removeGreyScale {
     to {
+        border-radius: 10px;
         filter: grayscale(0%);
     }
 }
 
+.eachProject:hover .projectTitle {
+    animation-name: changeColor;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes changeColor {
+    to {
+        color: var(--text-green-color);
+    }    
+}
+
+.eachProject:hover .projectDescription {    
+    animation-name: boxShadow;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes boxShadow {
+    to {
+        box-shadow: 2px 2px 1px 1px var(--text-green-color);
+    }
+}
+
+.eachProject:hover .projectDescription p, h1, li{
+    animation-name: changeColor2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes changeColor2 {
+    to {
+        color: var(--grey-color-1);
+    }    
+}
+
 .projectDescription p, h1, li{
     color: var(--grey-color-3);
+}
+
+.projectTechStack li{
+    display: inline;
+}
+.eachProject:hover .projectTechStack li{
+    animation-name: showTechStack;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;    
+}
+@keyframes showTechStack {
+    to {
+        opacity: 1;
+    }    
 }
 
 .projectTechStack {
@@ -88,7 +141,10 @@
     list-style: none;
     display: inline;
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 13px;
+    opacity: 0.5;
+    font-family: 'Fira Code', monospace;
+
 }
 
 .alignLeft {

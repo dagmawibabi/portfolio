@@ -19,16 +19,21 @@
 
 .list ul {
     list-style: none; 
-  }
+}
   
 .list ul li::before {
     content: "\25B9";  
     color: var(--text-green-color); 
-    font-weight: bold; 
     display: inline-block; 
     width: 1em; 
     margin-left: -1em;
-  }
+}
+
+.list li {
+    opacity: 0.85;
+    font-size: 13px;
+    font-family: 'Fira Code', monospace;
+}
 
 .myPhotoReveal {
     margin-top: 9%;

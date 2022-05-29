@@ -8,21 +8,27 @@ export const AboutMe = () => {
                     <div className='horizontalLine'></div>
                 </div>
                 <p>
-                    Hello! My name is Dagmawi and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                    Hello! My name is Dagmawi and I enjoy creating tech solutions to my daily problems. My interest in software development started back in 2013 when I accidentally stumbled upon a batch programming ebook in one of my harddrives — turns out there's so much you could do on a black & white terminal!
                 </p>
                 <br></br>
                 <p>
-                    Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at <span className='linkText'> Dream Intelligence </span> for a variety of clients.
+                    Fast-forward to today, and I’ve had the privilege of working at an 
+                    <span className='linkText'> <a href='https://arifevents.com' target='_blank' rel='noreferrer'> event organizing company </a> </span> , 
+                    <span className='linkText'> <a href='https://dreamintelligence.dagmawibabi.com' target='_blank' rel='noreferrer'> multiple start-ups </a> </span> ,
+                    <span className='linkText'> <a href='https://twitter.com/MoF_Ethiopia' target='_blank' rel='noreferrer'> a huge corporation </a> </span> , 
+                    and a
+                    <span className='linkText'> <a href='https://dagmawibabi.github.io/DigitalArtsClub/index.html' target='_blank' rel='noreferrer'> student-led design club </a> </span>
+                    . My main focus these days is building accessible, inclusive products and digital experiences at <span className='linkText'> <a href='https://dreamintelligence.dagmawibabi.com' target='_blank' rel='noreferrer'> Dream Intelligence </a> </span> for a variety of clients.
                 </p>
-                <br></br>
+                {/* <br></br>
                 <p>
                     I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
-                </p>
+                </p> */}
                 <br></br>
                 <p>
                     Here are a few technologies I’ve been working with recently:
                 </p>
-                <div className='flexSpaceBetween list' style={{width: '300px', marginLeft: '15px'}}>
+                <div className='flexSpaceBetween list' style={{width: '440px', marginLeft: '15px'}}>
                     <ul>
                         <li> React </li>
                         <li> Flutter </li>
@@ -40,6 +46,10 @@ export const AboutMe = () => {
                         <li> C# </li>
                         <li> C++ </li>
                         <li> Python </li>
+                    </ul>
+                    <ul>
+                        <li> Unity </li>
+                        <li> Illustrator </li>
                     </ul>
                 </div>
 

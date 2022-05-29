@@ -1,7 +1,8 @@
 .greeting {
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin-left: 5px;
+    font-family: 'Fira Code', monospace;
 }
 
 .name {

@@ -1,5 +1,5 @@
 .folderProjectContainer {
-    height: fit-content;
+    height: auto;
     width: 300px;
     padding: 30px;
     border-radius: 5px;
@@ -11,26 +11,31 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    
 }
 
-@keyframes folderHover {
-    0% {
-        margin-top: 0px;
-        background-color: var(--dim-blue);
-    }
-    100% {
-        margin-top: -10px;
-        /* background-color: var(--tinted-green-color); */
-        box-shadow: 3px 3px 2px 2px var(--text-green-color);
-    }    
+.folderIcon {
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
-@keyframes hoverChangeColor {
-    to {
-        margin-top: -5px;
-        color: var(--text-green-color);
-    }
+.projectTitle {
+    color: var(--gentle-blue);
+    margin-bottom: 15px;
+}
+
+.folderProjectDescription {
+    line-height: 22px;
+}
+
+.fpts {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 15px 12px;
+}
+.fpts li{
+    /* color: var(--grey-color-1s); */
+    opacity: 0.5;
+    padding-bottom: 20px;
 }
 
 .folderProjectContainer:hover .folderIcon{
@@ -52,10 +57,36 @@
     animation-fill-mode: forwards;
 }
 .folderProjectContainer:hover .fpts li{
-    animation-name: hoverChangeColorGrey3;
+    animation-name: showTechStack;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+}
+
+.folderProjectContainer:hover .fpts {
+    animation-name: changeBG;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes folderHover {
+    0% {
+        margin-top: 0px;
+        background-color: var(--dim-blue);
+    }
+    100% {
+        margin-top: -10px;
+        /* background-color: var(--tinted-green-color); */
+        box-shadow: 3px 3px 2px 2px var(--text-green-color);
+    }    
+}
+
+@keyframes hoverChangeColor {
+    to {
+        margin-top: -5px;
+        color: var(--text-green-color);
+    }
 }
 
 @keyframes hoverChangeColorGrey1 {
@@ -70,25 +101,16 @@
         color: var(--grey-color-3);
     }
 }
-
-.folderIcon {
-    font-size: 40px;
-    margin-bottom: 25px;
+@keyframes showTechStack {
+    to {
+        opacity: 1;
+    }   
+}
+@keyframes changeBG {
+    to {
+        margin-left: -5px;
+        padding: 10px 15px 12px;
+        background-color: var(--main-bg-color);
+    }    
 }
 
-.projectTitle {
-    color: var(--gentle-blue);
-    margin-bottom: 15px;
-}
-
-.folderProjectDescription {
-    line-height: 22px;
-}
-
-.fpts {
-    margin-top: 30px;
-}
-.fpts li{
-    color: var(--grey-color-1s);
-    opacity: 0.7;
-}

@@ -9,12 +9,14 @@ export const ContactMe = () => {
                     <div className='horizontalLine'></div>
                 </div>
                 <div className='salute'>
-                    <span className='linkText'> What's next? </span>
+                    <span className='linkText' style={{fontFamily: "'Fira Code', monospace"}}> What's next? </span>
                     <h1> Get in touch </h1>
                     <p>
                         I’m looking for great new opportunities so my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
                     </p>
-                    <button className='outlinedBtn' style={{padding: '15px 50px'}}> Say Hello </button>
+                    <a href='mailto:1babidagi@gmail.com' rel='noreferrer'>
+                        <button className='outlinedBtn' style={{padding: '15px 50px'}}> Say Hello </button>
+                    </a>
                 </div>
             </div>
         </div>

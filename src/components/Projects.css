@@ -1,5 +1,5 @@
 .projectContainer {
-    height: 380vh;
+    height: fit-content;
 }
 
 .folderProjects {
@@ -9,6 +9,7 @@
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(3, 6vw);
+    grid-template-rows: repeat(0, 6vw);
     grid-column-gap: 270px;
     grid-row-gap: 30px;
 }

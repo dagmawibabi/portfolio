@@ -1,11 +1,11 @@
 .contactMeContainer {
-    height: 50vh;
+    height: fit-content;
 
 }
 .salute {
     text-align: center;
     width: 600px;
-    margin: 15% auto;
+    margin: 10% auto 0%;
 }
 
 .salute h1 {

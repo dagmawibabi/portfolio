@@ -3,88 +3,106 @@ import { FolderProject } from './FolderProject';
 import './Projects.css'
 
 export const Projects = () => {
+    let isLeft = true;
     let projects = [
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project One',
-            projectDescription: 'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-            alignLeft: true
+            projectImage: require('../assets/projects/Aurora.png'),
+            projectTitle: 'Aurora',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['Flutter', 'NodeJS', 'Express', 'MongoDB', 'Mongoose', 'Hive', 'Wave'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Two',
-            projectDescription: 'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-            alignLeft: false
+            projectImage: require('../assets/projects/WordsOfStrangers.png'),
+            projectTitle: 'Words Of Strangers',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['ReactJS', 'NodeJS', 'Express', 'MongoDB', 'Mongoose', 'Vercel'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Three',
-            projectDescription: 'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-            alignLeft: true
+            projectImage: require('../assets/projects/OutOfPocket.png'),
+            projectTitle: 'Out Of Pocket',
+            projectDescription: 'An aesthetic minimal expense tracker helping you manage your budget along with expenses. It has graphs to visualize your spending and much more helpful features.',
+            projectTechStack: ['Flutter', 'Hive', 'Flutter Icons', 'Flutter Draw Graphs'],  
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Four',
-            projectDescription: 'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-            alignLeft: false
+            projectImage: require('../assets/projects/Jacosta.png'),
+            projectTitle: 'Jacosta Bot',
+            projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
+            projectTechStack: ['NodeJS', 'Telegram Bot API', 'Dicebear Avatars', 'Coingecko API'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+        },
+        {
+            projectImage: require('../assets/projects/MenenArts.png'),
+            projectTitle: 'Menen Arts',
+            projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
+            projectTechStack: ['Flutter', 'Painter', 'Intl', 'AdMob', 'Font Awesome', 'IonIcons'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+        },
+        {
+            projectImage: require('../assets/projects/TMDB.png'),
+            projectTitle: 'The Movie Database',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['ReactJS', 'React Hooks', 'TMDB API', 'Vercel'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
     ]
     let folderProjects = [
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project One',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: true
+            projectImage: require('../assets/projects/Aurora.png'),
+            projectTitle: 'Aurora',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Two',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: false
+            projectImage: require('../assets/projects/WordsOfStrangers.png'),
+            projectTitle: 'Words Of Strangers',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Three',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: true
+            projectImage: require('../assets/projects/OutOfPocket.png'),
+            projectTitle: 'Out Of Pocket',
+            projectDescription: 'An aesthetic minimal expense tracker helping you manage your budget along with expenses. It has graphs to visualize your spending and much more helpful features.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Four',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: false
+            projectImage: require('../assets/projects/Jacosta.png'),
+            projectTitle: 'Jacosta Bot',
+            projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project One',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: true
+            projectImage: require('../assets/projects/MenenArts.png'),
+            projectTitle: 'Menen Arts',
+            projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Two',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: false
+            projectImage: require('../assets/projects/TMDB.png'),
+            projectTitle: 'The Movie Database',
+            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
+            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
-        {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Three',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: true
-        },
-        {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Four',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: false
-        },
-        {
-            projectImage: require('../assets/projects/project.jpeg'),
-            projectTitle: 'Project Four',
-            projectDescription: 'The third iteration of my personal website built with React and hosted on Vercel.',
-            alignLeft: false
-        },
-
     ]
     return (
         <div id='projects' className='sectionContainer projectContainer'>
@@ -96,17 +114,18 @@ export const Projects = () => {
             <div>
                 {
                     projects.map((project, index) => {
-                        return <EachProject projectALignment={project.alignLeft} projectImage={project.projectImage} projectTitle={project.projectTitle} projectDescription={project.projectDescription} key={index} />
+                        isLeft = !isLeft;
+                        return <EachProject projectALignment={isLeft} projectImage={project.projectImage} projectTitle={project.projectTitle} projectDescription={project.projectDescription} projectTechStack={project.projectTechStack} projectGithubRepo={project.githubRepo} projectOtherLink={project.otherLink} key={index} />
                     })
                 }
             </div>
             <div className='folderProjects'>
                 <h1 style={{color: 'var(--gentle-blue)', marginBottom: '20px'}}> Other Noteworthy Projects </h1>
-                <span className='linkText'> View the archive </span>
+                {/* <span className='linkText' style={{fontFamily: "'Fira Code', monospace"}}> View the archive </span> */}
                 <div className='folderProjectsGrid'>
                     {
                         folderProjects.map((project, index) => {
-                            return <FolderProject projectImage={project.projectImage} projectTitle={project.projectTitle} projectDescription={project.projectDescription} key={index} />
+                            return <FolderProject projectImage={project.projectImage} projectTitle={project.projectTitle} projectDescription={project.projectDescription} projectTechStack={project.projectTechStack} projectGithubRepo={project.githubRepo} projectOtherLink={project.otherLink} key={index} />
                         })
                     }
                 </div>

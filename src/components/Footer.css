@@ -71,6 +71,9 @@
     to {
         transform: scale(1.2);
         color: var(--text-green-color)
-    }
-    
+    }   
+}
+
+.footerRemark p {
+    font-family: 'Fira Code', monospace;
 }
