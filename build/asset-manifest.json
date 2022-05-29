@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d191964a.css",
-    "main.js": "/static/js/main.8559da9f.js",
+    "main.css": "/static/css/main.3a6b1253.css",
+    "main.js": "/static/js/main.9c2f805d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/static/media/me.b4b941897136a2959e33.png",
-    "static/media/project.jpeg": "/static/media/project.99b5a3994dd7a6843218.jpeg",
+    "static/media/TMDB.png": "/static/media/TMDB.b692fb6a6bf7fe565542.png",
+    "static/media/Jacosta.png": "/static/media/Jacosta.411494d0a1de6066ae45.png",
+    "static/media/WordsOfStrangers.png": "/static/media/WordsOfStrangers.9dbbd3860bbc30fae88d.png",
+    "static/media/OutOfPocket.png": "/static/media/OutOfPocket.37e88e4d0916153ab844.png",
+    "static/media/Aurora.png": "/static/media/Aurora.4c918a9251b501d8d320.png",
+    "static/media/DagmawiEsayas.pdf": "/static/media/DagmawiEsayas.0c847b5a044a1febec2a.pdf",
+    "static/media/MenenArts.png": "/static/media/MenenArts.3c353fb3d0e9a08ff26a.png",
     "static/media/drawing.png": "/static/media/drawing.a72a7156f179db51014e.png",
     "index.html": "/index.html",
-    "main.d191964a.css.map": "/static/css/main.d191964a.css.map",
-    "main.8559da9f.js.map": "/static/js/main.8559da9f.js.map",
+    "main.3a6b1253.css.map": "/static/css/main.3a6b1253.css.map",
+    "main.9c2f805d.js.map": "/static/js/main.9c2f805d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d191964a.css",
-    "static/js/main.8559da9f.js"
+    "static/css/main.3a6b1253.css",
+    "static/js/main.9c2f805d.js"
   ]
 }
