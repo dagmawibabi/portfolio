@@ -28,13 +28,21 @@ export const EachProject = (props) => {
                         }
                     </ul>
                     <div>
-                        <a href={props.projectGithubRepo} target='_blank' rel="noreferrer">
-                            <i className="fa fa-github projectLink" style={{fontSize: '26px'}} ></i>
-                        </a>
+                        {
+                            props.projectGithubRepo !== " " || "" || null?
+                                <a href={props.projectGithubRepo} target='_blank' rel="noreferrer">
+                                    <i className="fa fa-github projectLink" style={{fontSize: '26px'}} ></i>
+                                </a>
+                            : <i></i>
+                        }
                         {/* <i className="fa fa-solid fa-share projectLink"></i> */}
-                        <a href={props.projectOtherLink} target='_blank' rel="noreferrer">
-                            <i className="fa fa-solid fa-link projectLink"></i>
-                        </a>
+                        {
+                             props.projectOtherLink !== " " || ""?
+                                <a href={props.projectOtherLink} target='_blank' rel="noreferrer">
+                                    <i className="fa fa-solid fa-link projectLink"></i>
+                                </a>
+                            : <i></i>
+                        }
                     </div>
                 </div>
                 {

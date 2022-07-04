@@ -20,6 +20,7 @@
     object-fit: cover;
     border-radius: 5px;
     filter: grayscale(100%);
+
 }
 
 .projectImage:hover {
@@ -69,6 +70,7 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.366);
 }
 
 @keyframes removeGreyScale {
@@ -143,8 +145,7 @@
     margin-right: 15px;
     font-size: 13px;
     opacity: 0.5;
-    font-family: 'Fira Code', monospace;
-
+    font-family: var(--secondary-font);
 }
 
 .alignLeft {

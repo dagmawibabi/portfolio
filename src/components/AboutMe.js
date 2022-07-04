@@ -33,7 +33,7 @@ export const AboutMe = () => {
                         <li> React </li>
                         <li> Flutter </li>
                         <li> NodeJS </li>
-                        <li> TailWind </li>
+                        <li> Tailwind </li>
                         <li> MongoDB </li>
                     </ul>
                     <ul>

@@ -39,7 +39,7 @@ export const Footer = () => {
             </div>
             <div className='footerRemark'>
                 <p> {/* Designed by <span className='linkText'> Brittany Chiang </span> and */ } Built by Dagmawi Babi </p> 
-                <p> May, 2022 </p>
+                <p> { Date().substring(0, 16) } </p>
             </div>                    
             <div className='email'>
                 <a href='mailto:1babidagi@gmail.com'>

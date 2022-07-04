@@ -14,7 +14,7 @@ export const NavBar = () => {
                     <a href='#aboutMe' rel='noreferrer'>
                         <li> <span> 01. </span> About </li>
                     </a>
-                    <a href='#aboutMe'>
+                    <a href='#experience'>
                         <li> <span> 02. </span> Experience </li>
                     </a>
                     <a href='#projects'>

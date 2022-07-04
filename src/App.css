@@ -15,6 +15,7 @@
   --dim-blue: #12213e;
   --lighter-blue: #162b52;  
   --main-font: 'Ubuntu';
+  --secondary-font: 'Fira Code', monospace;
 }
 html {
   scroll-behavior: smooth;
@@ -50,7 +51,7 @@ li {
   border-radius: 5px;
   padding: 8px 30px;
   color: var(--text-green-color);
-  font-family: 'Fira Code', monospace;
+  font-family: var(--secondary-font)
 }
 
 .outlinedBtn:hover {

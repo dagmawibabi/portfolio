@@ -1,6 +1,7 @@
 import './App.css';
 import { AboutMe } from './components/AboutMe';
 import { ContactMe } from './components/ContactMe';
+import { Experience } from './components/Experience';
 import { Footer } from './components/Footer';
 import { LandingPage } from './components/LandingPage';
 import { NavBar } from './components/NavBar';
@@ -13,6 +14,7 @@ function App() {
         <NavBar />        
         <LandingPage />
         <AboutMe />
+        <Experience />
         <Projects />
         <ContactMe />
         {/* <SideContacts /> */}

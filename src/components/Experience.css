@@ -1,0 +1,85 @@
+.tabsContainer {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 15%;
+    padding-top: 8%;
+}
+.tabs {
+    display: flex;
+    padding: 10px;    
+    /* border: 1px solid blue; */
+}
+.tabList {
+    width: 20%;
+    padding: 10px;
+    /* border: 1px solid blue; */
+}
+.eachTab {
+    /* border: 1px solid blue; */
+    border-left: 2px solid var(--text-grey-color);
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: var(--secondary-font);
+}
+
+.selectedTab {
+    color: var(--text-green-color);
+    background-color: var(--tinted-green-color);
+    border-left: 2px solid var(--text-green-color);
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: var(--secondary-font);
+}
+
+.eachTab:hover {
+    background-color: var(--tinted-green-color);
+    border-left: 2px solid var(--text-green-color);
+}
+.eachTab:hover {
+    color: var(--text-green-color);
+}
+
+.tabExpanded {
+    width: 80%;
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+.tabTitle {
+    padding-bottom: 10px;
+}
+
+.tabDuration {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+}
+.tabDescription {
+    color: var(--text-grey-color);
+    line-height: 26px;
+}
+
+.tabExpandedList {
+    margin-top: 15px;
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.tabExpandedList ul {
+    list-style: none; 
+
+}
+
+.experiencesList {
+    color: var(--text-grey-color) !important;
+}
+  
+.tabExpandedList ul li::before {
+    content: "\25B9";  
+    color: var(--text-green-color); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
