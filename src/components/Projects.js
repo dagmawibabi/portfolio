@@ -19,7 +19,7 @@ export const Projects = () => {
             projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
             projectTechStack: ['NodeJS', 'Telegram Bot API', 'Dicebear Avatars', 'Coingecko API'],
             githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://t.me/DoloresAbernathy7'
+            otherLink: 'https://t.me/DreamIntelligence/63'
         },
         {
             projectImage: require('../assets/projects/OutOfPocket.jpg'),
@@ -98,26 +98,26 @@ export const Projects = () => {
         {
             // projectImage: require('../assets/projects/OutOfPocket.png'),
             projectTitle: 'Astrophile',
-            projectDescription: 'An aesthetic minimal expense tracker helping you manage your budget along with expenses. It has graphs to visualize your spending and much more helpful features.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            projectDescription: 'A minimal mobile app for space and photograph enthusiasts to search and browse through NASA\'s Astronomy Picture Of The Day gallery along with a brief explanation written by a professional astronomer. ',
+            projectTechStack: ['Flutter', 'APOD API'],
+            githubRepo: 'https://github.com/dagmawibabi/Astrophile',
             otherLink: 'https://t.me/DreamIntelligence/72'
         },
         {
             // projectImage: require('../assets/projects/Aurora.png'),
             projectTitle: 'Lexicon',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            projectDescription: 'An aesthetic minimal offline English dictionary based on the Webster Dictionary dataset. With word suggestions and different filters of searching for a specific word.',
+            projectTechStack: ['Flutter', 'Webster Word Dataset'],
+            githubRepo: 'https://github.com/dagmawibabi/Lexicon',
+            otherLink: 'https://t.me/DreamIntelligence/99'
         },
         {
             // projectImage: require('../assets/projects/WordsOfStrangers.png'),
             projectTitle: 'Cyberpunk Chat',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectDescription: 'A unique futuristic cyberpunk themed chat app with a news feed populated entirely by bots scraping content from different sub-reddits and APIs complete with a crypto price trackers.',
             projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/CyberpunkChat',
+            otherLink: 'https://t.me/DreamIntelligence/87'
         },
         {
             // projectImage: require('../assets/projects/Jacosta.png'),
@@ -130,18 +130,18 @@ export const Projects = () => {
         {
             // projectImage: require('../assets/projects/MenenArts.png'),
             projectTitle: 'Crypto Wallet UI',
-            projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            projectDescription: 'A modern cryptocurrency wallet UI with a functional built in crypto price tracker and a QR scanner, complete with both light and dark mode.',
+            projectTechStack: ['Flutter', 'QR Scanner'],
+            githubRepo: 'https://github.com/dagmawibabi/CryptoExchangeWallet',
+            otherLink: 'https://t.me/DreamIntelligence/117'
         },
         {
             // projectImage: require('../assets/projects/MenenArts.png'),
             projectTitle: 'Python Game Engine',
-            projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            projectDescription: 'A 2D game engine built on top of pygame. With features like sound, animation and particle system.',
+            projectTechStack: ['Python', 'Pygame'],
+            githubRepo: 'https://github.com/dagmawibabi/PythonGameEngine',
+            otherLink: ' '
         },
         
     ]
@@ -161,7 +161,7 @@ export const Projects = () => {
                 }
             </div>
             <div className='folderProjects'>
-                <h1 style={{color: 'var(--gentle-blue)', marginBottom: '20px'}}> Other Noteworthy Projects </h1>
+                <h1 style={{color: 'var(--gentle-blue)', marginBottom: '20px', marginLeft: '-55px'}}> Other Noteworthy Projects </h1>
                 {/* <span className='linkText' style={{fontFamily: "'Fira Code', monospace"}}> View the archive </span> */}
                 <div className='folderProjectsGrid'>
                     {

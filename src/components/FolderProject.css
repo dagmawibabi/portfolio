@@ -1,10 +1,15 @@
 .folderProjectContainer {
     height: auto;
-    width: 300px;
-    padding: 30px;
+    width: 290px;
+    padding: 28px 28px 10px;
+    /* width: 300px;
+    padding: 30px 30px 10px; */
     border-radius: 5px;
     background-color: var(--dim-blue);
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .folderProjectContainer:hover {
     animation-name: folderHover;
@@ -13,18 +18,27 @@
     animation-fill-mode: forwards;
 }
 
-.folderIcon {
-    font-size: 40px;
-    margin-bottom: 25px;
+.projectBody {
+    height: 170px;
 }
 
-.projectTitle {
-    color: var(--gentle-blue);
+.folderIcon {
+    font-size: 36px;
     margin-bottom: 15px;
+    /* font-size: 40px;
+    margin-bottom: 25px; */
+}
+
+.projectTitleFolder {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--grey-color-1);
+    /* margin-bottom: 15px; */
 }
 
 .folderProjectDescription {
-    line-height: 22px;
+    line-height: 24px;
+    font-size: 16px;
 }
 
 .fpts {
@@ -46,7 +60,7 @@
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
-.folderProjectContainer:hover .projectTitle{
+.folderProjectContainer:hover .projectTitleFolder{
     animation-name: hoverChangeColor;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
