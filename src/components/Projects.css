@@ -4,10 +4,14 @@
 
 .folderProjects {
     text-align: center;
+    padding-left: 35px;
 }
 .folderProjectsGrid {
     margin-top: 60px;
     display: grid;
+    /* center elements */
+    /* justify-content: space-evenly; */
+    /* space elements evenly */
     grid-template-columns: repeat(3, 6vw);
     grid-template-rows: repeat(0, 6vw);
     grid-column-gap: 250px;

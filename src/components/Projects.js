@@ -59,7 +59,7 @@ export const Projects = () => {
             projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
             projectTechStack: ['ReactJS', 'React Hooks', 'TMDB API', 'Vercel'],
             githubRepo: ' ',
-            otherLink: 'https://ethiodatasets.com/'
+            otherLink: ' '
         },
         {
             projectImage: require('../assets/projects/WordsOfStrangers.png'),
@@ -88,8 +88,8 @@ export const Projects = () => {
         {
             projectImage: require('../assets/projects/IAmNinja.jpg'),
             projectTitle: 'I Am Ninja',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
-            projectTechStack: ['ReactJS', 'React Hooks', 'TMDB API', 'Vercel'],
+            projectDescription: 'A zombie killing 2D survival game built using my own game engine. Complete with animations, music, sounds and randomly spawning zombies out to get your brain.',
+            projectTechStack: ['Python', 'Eunoia'],
             githubRepo: 'https://github.com/dagmawibabi/portfolio',
             otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
@@ -137,7 +137,7 @@ export const Projects = () => {
         },
         {
             // projectImage: require('../assets/projects/MenenArts.png'),
-            projectTitle: 'Python Game Engine',
+            projectTitle: 'Eunoia',
             projectDescription: 'A 2D game engine built on top of pygame. With features like sound, animation and particle system.',
             projectTechStack: ['Python', 'Pygame'],
             githubRepo: 'https://github.com/dagmawibabi/PythonGameEngine',

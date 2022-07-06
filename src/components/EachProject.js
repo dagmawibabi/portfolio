@@ -27,7 +27,8 @@ export const EachProject = (props) => {
                             })
                         }
                     </ul>
-                    <div>
+                    <div className='githubAndOtherLInk'>
+                        {/* Links */}
                         {
                             props.projectGithubRepo !== " " || "" || null?
                                 <a href={props.projectGithubRepo} target='_blank' rel="noreferrer">
