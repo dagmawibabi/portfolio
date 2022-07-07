@@ -13,9 +13,9 @@ export const AboutMe = () => {
                     </p>
                     <br></br>
                     <p>
-                        Fast-forward to today, and I’ve had the privilege of working at an 
-                        <span className='linkText'> <a href='https://ArifEvents.com' target='_blank' rel='noreferrer'> event organizing company </a> </span> , 
-                        <span className='linkText'> <a href='https://AblazeLabs.com' target='_blank' rel='noreferrer'> multiple start-ups </a> </span> ,
+                        Fast-forward to today, and I’ve had the privilege of working at multiple start ups,
+                        an <span className='linkText'> <a href='https://ArifEvents.com' target='_blank' rel='noreferrer'> event organizing company </a> </span> , 
+                        {/* <span className='linkText'> <a href='https://AblazeLabs.com' target='_blank' rel='noreferrer'> multiple start-ups </a> </span> , */}
                         <span className='linkText'> <a href='https://twitter.com/MoF_Ethiopia' target='_blank' rel='noreferrer'> a huge corporation </a> </span> , 
                         and a
                         <span className='linkText'> <a href='https://dagmawibabi.github.io/DigitalArtsClub/index.html' target='_blank' rel='noreferrer'> student-led design club </a> </span>

@@ -38,7 +38,8 @@ export const Footer = () => {
                 <div className='verticalLine'></div>
             </div>
             <div className='footerRemark'>
-                <p> {/* Designed by <span className='linkText'> Brittany Chiang </span> and */ } Built by Dagmawi Babi </p> 
+                <p> Designed by Brittany Chiang</p> 
+                <p> Built by Dagmawi Babi </p> 
                 <p> { Date().substring(0, 16) } </p>
             </div>                    
             <div className='email'>

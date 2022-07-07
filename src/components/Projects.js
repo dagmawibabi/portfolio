@@ -10,15 +10,15 @@ export const Projects = () => {
             projectTitle: 'Aurora',
             projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
             projectTechStack: ['Flutter', 'NodeJS', 'Express', 'MongoDB', 'Mongoose', 'Hive', 'Wave'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/New-Social',
+            otherLink: 'https://t.me/DreamIntelligence/143'
         },
         {
             projectImage: require('../assets/projects/CovidTracker.jpg'),
             projectTitle: 'Covid Tracker',
-            projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
-            projectTechStack: ['NodeJS', 'Telegram Bot API', 'Dicebear Avatars', 'Coingecko API'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            projectDescription: "A feature rich covid and covid vaccine tracking app built to keep track of worldwide statistics. Reaching 6000+ users at it's peak.",
+            projectTechStack: ['Flutter', 'Disease.sh API', 'Firebase', 'Cloud Firestore'],
+            githubRepo: 'https://github.com/dagmawibabi/CovidTracker',
             otherLink: 'https://t.me/DreamIntelligence/63'
         },
         {
@@ -26,72 +26,72 @@ export const Projects = () => {
             projectTitle: 'Out Of Pocket',
             projectDescription: 'An aesthetic minimal expense tracker helping you manage your budget along with expenses. It has graphs to visualize your spending and much more helpful features.',
             projectTechStack: ['Flutter', 'Hive', 'Flutter Icons', 'Flutter Draw Graphs'],  
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/OutOfPocket',
+            otherLink: 'https://t.me/DreamIntelligence/152'
         },
         {
             projectImage: require('../assets/projects/MenenArts.jpg'),
             projectTitle: 'Menen Arts',
             projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
             projectTechStack: ['Flutter', 'Painter', 'Intl', 'AdMob', 'Font Awesome', 'IonIcons'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: ' ',
+            otherLink: 'https://play.google.com/store/apps/details?id=com.menenartsapp.menenarts'
         },
         {
             projectImage: require('../assets/projects/Jacosta.jpg'),
             projectTitle: 'Jacosta Bot',
             projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
             projectTechStack: ['NodeJS', 'Telegram Bot API', 'Dicebear Avatars', 'Coingecko API'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/jacosta',
+            otherLink: 'https://t.me/im_jacosta_bot'
         },
         {
             projectImage: require('../assets/projects/DoloresAbernathy.jpg'),
             projectTitle: 'Dolores Abernathy',
-            projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
-            projectTechStack: ['NodeJS', 'Telegram Bot API', 'Dicebear Avatars', 'Coingecko API'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            projectDescription: "An automated telegram channel that's entirely run by a bot. The bot curates, manages and posts content from around the internet at random intervals automatically.",
+            projectTechStack: ['NodeJS', 'Telegram Bot API', 'Reddit Open API', 'Cron Jobs'],
+            githubRepo: 'https://github.com/dagmawibabi/DoloresAbernathy',
             otherLink: 'https://t.me/DoloresAbernathy7'
         },
         {
             projectImage: require('../assets/projects/EthioDatasets.png'),
             projectTitle: 'EthioDatasets',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
-            projectTechStack: ['ReactJS', 'React Hooks', 'TMDB API', 'Vercel'],
+            projectDescription: 'A secure complex data collection, organization and visualization web tool. Utilizing hierarchial data relationships and multiple user schemas with notifications & automatic backups for the Ethiopian Government.',
+            projectTechStack: ['NodeJS', 'MongoDB', 'Mongoose', 'NodeMailer', 'Bcrypt', 'Cors', 'JWT'],
             githubRepo: ' ',
             otherLink: ' '
         },
         {
             projectImage: require('../assets/projects/WordsOfStrangers.png'),
             projectTitle: 'Words Of Strangers',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectDescription: 'An open-source, anonymous news feed web app helping strangers speak their mind with complete freedom of speech.',
             projectTechStack: ['ReactJS', 'NodeJS', 'Express', 'MongoDB', 'Mongoose', 'Vercel'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/wallOfTexts',
+            otherLink: 'https://wall-of-texts-dagmawibabi.vercel.app/'
         },
         {
             projectImage: require('../assets/projects/TMDB.png'),
             projectTitle: 'The Movie Database',
-            projectDescription: 'A new modern aesthetic multipurpose all-in-one social media. Equipped with a built in music player, crypto wallet and so much more everyday use apps. All integrated seamlessly.',
+            projectDescription: 'A modern designed aesthetic trending movie and series browsing web app. It presents daily and weekly trending movies along with descriptions and details about them.',
             projectTechStack: ['ReactJS', 'React Hooks', 'TMDB API', 'Vercel'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
+            githubRepo: 'https://github.com/dagmawibabi/TMDB',
             otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
         },
         {
             projectImage: require('../assets/projects/BoxSimulation.jpg'),
             projectTitle: 'Boxes Simulation',
-            projectDescription: 'A fashion illustration app rich with essential features to design, color, and export custom fashion clothings along with lots of presets to get your design started. Made for Menen Arts Start Up.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            projectDescription: 'A computer and mobile simulation, simulating the physics of hundreds of boxes in a 3D environment all moving and interacting on their own. It has a built in physics stats visualizer and camera switcher.',
+            projectTechStack: ['Unity', 'Unity Terrain Editor', 'Unity Android ', 'AI|ML'],
+            githubRepo: ' ',
+            otherLink: 'https://t.me/DreamIntelligence/155'
         },
         {
             projectImage: require('../assets/projects/IAmNinja.jpg'),
             projectTitle: 'I Am Ninja',
             projectDescription: 'A zombie killing 2D survival game built using my own game engine. Complete with animations, music, sounds and randomly spawning zombies out to get your brain.',
             projectTechStack: ['Python', 'Eunoia'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            githubRepo: 'https://github.com/dagmawibabi/IAmNinja',
+            otherLink: 'https://t.me/DreamIntelligence/128'
         },
     ]
     let folderProjects = [
@@ -120,12 +120,20 @@ export const Projects = () => {
             otherLink: 'https://t.me/DreamIntelligence/87'
         },
         {
+            // projectImage: require('../assets/projects/MenenArts.png'),
+            projectTitle: 'Eunoia',
+            projectDescription: 'A 2D game engine built on top of pygame. With features like sound, animation and particle system.',
+            projectTechStack: ['Python', 'Pygame'],
+            githubRepo: 'https://github.com/dagmawibabi/PythonGameEngine',
+            otherLink: ''
+        },
+        {
             // projectImage: require('../assets/projects/Jacosta.png'),
             projectTitle: 'Beautiful OS',
-            projectDescription: 'A feature rich telegram bot to help ease some tasks on telegram. It has features like web-screen, QR generator, covid stat tracker, Crypto price checker and much more.',
-            projectTechStack: ['Flutter', 'NodeJS', 'MongoDB'],
-            githubRepo: 'https://github.com/dagmawibabi/portfolio',
-            otherLink: 'https://tmdb-dagmawibabi.vercel.app/'
+            projectDescription: 'An headless minimal operating system complete with a lock screen, folder system, profile page and music player and a simple personal assistant.',
+            projectTechStack: ['Electron', 'Python', 'C++'],
+            githubRepo: 'https://github.com/dagmawibabi/beautifulelectronsurface',
+            otherLink: ''
         },
         {
             // projectImage: require('../assets/projects/MenenArts.png'),
@@ -134,14 +142,6 @@ export const Projects = () => {
             projectTechStack: ['Flutter', 'QR Scanner'],
             githubRepo: 'https://github.com/dagmawibabi/CryptoExchangeWallet',
             otherLink: 'https://t.me/DreamIntelligence/117'
-        },
-        {
-            // projectImage: require('../assets/projects/MenenArts.png'),
-            projectTitle: 'Eunoia',
-            projectDescription: 'A 2D game engine built on top of pygame. With features like sound, animation and particle system.',
-            projectTechStack: ['Python', 'Pygame'],
-            githubRepo: 'https://github.com/dagmawibabi/PythonGameEngine',
-            otherLink: ' '
         },
         
     ]
@@ -171,6 +171,12 @@ export const Projects = () => {
                     }
                 </div>
             </div>
+            <div style={{display: 'flex', justifyContent: 'center', marginTop: '100px'}}>
+                <a href='https://github.com/dagmawibabi?tab=repositories' target='_blank' rel='noreferrer'>
+                    <button className='outlinedBtn cta'> Check out more projects </button>
+                </a>
+            </div>
+
         </div>
     );
 }
