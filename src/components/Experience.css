@@ -1,7 +1,7 @@
 .tabsContainer {
     /* border: 1px solid red; */
-    width: 80%;
-    margin-left: 15%;
+    width: 82%;
+    margin-left: 10%;
     padding-top: 8%;
 }
 .tabs {
@@ -10,16 +10,16 @@
     /* border: 1px solid blue; */
 }
 .tabList {
-    width: 20%;
-    padding: 10px;
+    width: 25%;
+    padding: 5px;
     /* border: 1px solid blue; */
 }
 .eachTab {
     /* border: 1px solid blue; */
     border-left: 2px solid var(--text-grey-color);
     padding: 10px;
-    padding-left: 20px;
-    font-size: 16px;
+    padding-left: 18px;
+    font-size: 14px;
     font-family: var(--secondary-font);
 }
 
@@ -45,6 +45,8 @@
     width: 80%;
     /* border: 1px solid blue; */
     padding: 10px;
+    padding-left: 40px;
+    margin-top: -40px;
 }
 
 .tabTitle {
@@ -52,19 +54,20 @@
 }
 
 .tabDuration {
-    padding-bottom: 20px;
+    padding-bottom: 8px;
     font-size: 14px;
     font-family: var(--secondary-font);
 }
 .tabDescription {
     color: var(--text-grey-color);
     line-height: 26px;
+    padding-top: 15px;
 }
 
 .tabExpandedList {
     margin-top: 15px;
     margin-left: 25px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .tabExpandedList ul {
@@ -82,4 +85,9 @@
     display: inline-block; 
     width: 1em; 
     margin-left: -1em;
+}
+
+.tabExpandedList li {
+    font-size: 15px;
+    padding-bottom: 10px;
 }

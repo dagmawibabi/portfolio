@@ -1,10 +1,11 @@
 .footerContainer {
     font-size: 14px;
-    padding: 20px 0px;
+    padding: 220px 0px 20px;
     text-align: center;
     /* display: flex;
     justify-content: space-between;
     margin: 0 50px; */
+
 }
 
 .footerContainer p {
@@ -75,5 +76,5 @@
 }
 
 .footerRemark p {
-    font-family: 'Fira Code', monospace;
+    font-family: var(--secondary-font);
 }

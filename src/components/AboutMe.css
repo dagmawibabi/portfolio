@@ -5,7 +5,9 @@
 .aboutMeContent {
     width: 54%;
 }
-
+.someSpace {
+    margin-top: 20px;
+}
 .aboutMeContent p {
     font-size: 17px;
     line-height: 26px;
